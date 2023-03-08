@@ -13,7 +13,6 @@ export function CardsItems(props) {
 }
 
 export function ProOrderCards(props) {
-  console.log(props);
   return (
     <div className="list-item__box">
       <img src={props.img} alt="card-img" />
