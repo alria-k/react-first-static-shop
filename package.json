@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alria-k.github.io/First-static-shop-react",
   "name": "first-react",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "node-sass": "^7.0.3"
   }
 }
